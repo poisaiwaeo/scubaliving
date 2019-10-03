@@ -8,6 +8,7 @@ import Dykkerrejser from './components/dykkerrejser/Dykkerrejser';
 import Dykkerkurser from './components/dykkerkurser/Dykkerkurser';
 import Kontakt from './components/kontakt/Kontakt';
 import Omos from './components/omos/Omos';
+import Login from './components/login/Login';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="/dykkerkurser" component={Dykkerkurser} />
           <Route path="/kontakt" component={Kontakt} />
           <Route path="/omos" component={Omos} />
+          <Route path="/login" component={Login}/>
       </Switch>
       <Footer/>
     </div>
