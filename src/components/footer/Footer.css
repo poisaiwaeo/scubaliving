@@ -1,0 +1,82 @@
+html,body{
+    margin: 0;
+    padding: 0;
+   }
+
+   /*Footer*/
+   footer{
+       background-color: #000000;
+       color:#ffffff;
+       margin: 0;
+   }
+   footer p{
+       padding: 0;
+       margin: 0;
+   }
+   .medier__container{
+       display: flex;
+       width: 100%;
+       margin:10px 0 10px 0;
+   }
+   .medier__text{
+       display: flex;
+       width: 80px;
+       height:30px;
+       justify-content: center;
+       align-items: center;
+       font-size: 16px;
+       padding:10px;
+   }
+   .medier__icon{
+       width: 30px;
+       height: 30px;
+       margin:0;
+   }
+   .medier__icon:hover{
+       opacity: 0.4;
+   }
+
+
+  
+  
+  
+      /*---Media Queries--*/
+    /*Pc*/
+    @media (min-width:1025px) {
+  
+    }
+    /*Tablet*/
+    @media (max-width:1024px) {
+  
+    }
+  /*Mobil*/
+  @media (max-width:600px){
+
+      /*Navbar*/
+      .navbar{
+          z-index: auto;
+      }
+     
+     
+  
+  }
+  
+  
+  
+  
+    /*
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  */

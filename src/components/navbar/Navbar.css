@@ -1,0 +1,105 @@
+html,body{
+    margin: 0;
+    padding: 0;
+   }
+
+
+   /*Navbar*/
+   nav img {
+       width: 100%;
+   }
+   nav ul li{
+       text-transform: uppercase;
+   }
+   .nav__form{
+       background-color:#dddddd;
+       height:30px;
+   }
+   .nav__form input{
+       background-color:#dddddd;
+       height:30px;
+   }
+   .nav__form button{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #f0f0f0;
+       color:#000;
+       font-size: 16px;
+   }
+   .nav__form button:hover{
+       background-color: #3db3d7;
+   }
+
+   /*login box*/
+   .login__container{
+       display: flex;
+       width: 100px;
+       height: 30px;
+       margin-left: 50px;
+   }
+   .login__icon{
+       display: flex;
+       width:30px;
+       height: 30px;
+       justify-content: center;
+       align-items: center;
+       background-color: #000;
+   }
+   .login__text{
+    display: flex;
+    width:70px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;   
+    list-style: none;
+    text-decoration: none;
+   } 
+   .login__text a{
+    color:#000;
+   }
+   .fa-key{
+    color: #ffffff;
+   }
+   
+
+  
+      /*---Media Queries--*/
+    /*Pc*/
+    @media (min-width:1025px) {
+  
+    }
+    /*Tablet*/
+    @media (max-width:1024px) {
+  
+    }
+  /*Mobil*/
+  @media (max-width:600px){
+      /*Navbar*/
+      .navbar{
+          z-index: auto;
+      }
+  
+  }
+  
+  
+  
+  
+    /*
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  */
+  
+  

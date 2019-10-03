@@ -1,0 +1,115 @@
+html,body{
+    margin: 0;
+    padding: 0;
+   }
+
+   .main__wrapper{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+  }
+   /*kontakt image*/
+   .kontakt__container{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 0;
+   }
+   .kontakt__container img{
+     width: 100%;
+   }
+   .kontakt__text{
+     width: 50%;
+     background-color:#ffffff;
+     position: absolute;
+     top: 50%;
+     left: 25%;
+     transform: translateY(-50%);
+     padding:20px;
+     opacity: 0.7;
+     text-transform: uppercase;
+     text-align: center;
+   }
+   .kontakt__text h2{
+     font-size: 150%;
+     color:#000;
+   }
+   .kontakt__text{
+       padding:10px;
+       margin: 10px;    
+   }
+
+   .kontakt__container{
+       margin: 10px 0 10px 0;
+   }
+   .kontakt__oplysninger{
+       display: flex;
+       padding: 10px;
+       margin: 10px 0 10px 0;
+   }
+   .kontakt__oplysninger h2{
+       margin: 0;
+   }
+   .kontakt__oplysninger p{
+    margin: 0;
+   }
+   .kontakt{
+       list-style: none;
+       text-decoration: none;
+       color:#000;
+   }
+
+
+  
+  
+  
+      /*---Media Queries--*/
+    /*Pc*/
+    @media (min-width:1025px) {
+  
+    }
+    /*Tablet*/
+    @media (max-width:1024px) {
+  
+    }
+  /*Mobil*/
+  @media (max-width:600px){
+
+      /*Navbar*/
+      .navbar{
+          z-index: auto;
+      }
+      /*kontakt image*/
+      .kontakt__text{
+        width: 50%;
+        top:50%;
+        left:25%;
+        font-size: 45%;
+        text-align: center;
+        padding:10px;
+      }
+     
+     
+  
+  }
+  
+  
+  
+  
+    /*
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  */

@@ -1,0 +1,66 @@
+html,body{
+    margin: 0;
+    padding: 0;
+   }
+
+   /*Card*/
+   .card__container{
+     background-color: #cccccc;
+   }
+   .card__rubrik{
+     display: flex;
+     background-color: #000000;
+     color:#ffffff;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 5px;
+   }
+   .card__rubrik h5{
+    margin: 0 20px 0 20px;
+   }
+   .card__text{
+    background-color: #000000;
+    color:#ffffff;   
+   }
+  
+  
+      /*---Media Queries--*/
+    /*Pc*/
+    @media (min-width:1025px) {
+  
+    }
+    /*Tablet*/
+    @media (max-width:1024px) {
+  
+    }
+  /*Mobil*/
+  @media (max-width:600px){
+
+      /*Navbar*/
+      .navbar{
+          z-index: auto;
+      }
+     
+     
+  
+  }
+  
+  
+  
+  
+    /*
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  */

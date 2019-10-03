@@ -1,25 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//Navbar
+import Navbar from './components/navbar/Navbar';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './components/home/Home';
+import Dykkerudstyr from './components/dukkerudstyr/Dukkerudstyr';
+import Dykkerrejser from './components/dykkerrejser/Dykkerrejser';
+import Dykkerkurser from './components/dykkerkurser/Dykkerkurser';
+import Kontakt from './components/kontakt/Kontakt';
+import Omos from './components/omos/Omos';
+import Footer from './components/footer/Footer';
 
 function App() {
+
+
   return (
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/dykkerudstyr" component={Dykkerudstyr} />
+          <Route path="/dykkerrejser" component={Dykkerrejser} />
+          <Route path="/dykkerkurser" component={Dykkerkurser} />
+          <Route path="/kontakt" component={Kontakt} />
+          <Route path="/omos" component={Omos} />
+      </Switch>
+      <Footer/>
     </div>
+    </BrowserRouter>
   );
 }
 
